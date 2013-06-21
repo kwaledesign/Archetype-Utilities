@@ -2,7 +2,7 @@ Archetype-Utilities
 ===================
 
 Utility functions and mixins built in Sass and Compass. Archetype-Utilities was
-specifically designed to suplement
+specifically designed to supplement
 [Archetype](https://github.com/kwaledesign/Archetype) but it can just as easily
 be used within any Compass project.
 
