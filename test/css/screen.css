@@ -1,0 +1,298 @@
+/**
+ * Archetype Utilities
+ */
+/**
+ * Helper Utilities
+ *
+ */
+/**
+ * Apply capital case to an element (usually a `strong`).
+ */
+/* line 11, ../../../../../.rvm/gems/ruby-2.0.0-p0/gems/archetype-utilities-0.1.0/stylesheets/archetype-utilities/_helpers.scss */
+.caps {
+  text-transform: uppercase;
+}
+
+/**
+ * Text Overflow
+ * 
+ * Requires inline-block or block for proper styling
+ */
+/**
+ * Drupal Unpublished Node / Comment
+ *
+ * The word "Unpublished" displayed underneath unpublished nodes and comments.
+ * http://drupal.org/project/zen
+ */
+/**
+ * Accessibility
+ * 
+ */
+/**
+ * Focus state for keyboard and accessibility
+ *
+ * https://github.com/jlong/sass-twitter-bootstrap/blob/master/lib/_mixins.scss
+ * ex: &:focus { @include tab-focus(); }
+ */
+/**
+ * Image Replacement
+ */
+/**
+ * Hidden
+ * 
+ * http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+ * same as compass: @include hide-text(); which includes a hide-left argument
+ */
+/**
+ * Invisable
+ *
+ * Hide from both screenreaders and browsers: h5bp.com/u 
+ * http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone
+ * http://a11yproject.com/posts/how-to-hide-content
+ * 
+ * also consider adding: aria-hidden="true" attribute
+ */
+/**
+ * Visually Hidden
+ * 
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v 
+ * 
+ * $focus-state argument extends the .visuallyhidden class
+ * allows the element to be focusable when navigated to via the keyboard: h5bp.com/p 
+ */
+/**
+ * Clearfix
+ * 
+ */
+/**
+ * Modern Clearfix
+ *
+ * no legacy support, but works well for modern browsers and border-box
+ * http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ *
+ * see compass docs for legacy clearfix options
+ */
+/**
+ * CSS Triangles 
+ * 
+ */
+/**
+ * Simple Triangle
+ * 
+ * .example { @include simple-triangle(5px, #fff, bottom); }
+ */
+/**
+ * Triangles
+ * 
+ * https://github.com/Snugug/toolkit/blob/master/compass/stylesheets/toolkit/_triangle.scss
+ */
+/**
+ * Units
+ * 
+ */
+/**
+ * Percentage 
+ * 
+ * calculate a percentage based on values independant of Susy
+ */
+/**
+ * Ems
+ * 
+ * calculate an em value based on values independant of Susy
+ */
+/**
+ * Convert to Ems
+ * 
+ * convert given value to em units
+ */
+/**
+ * Pseudo Elements
+ * 
+ * https://github.com/ericam/accoutrement/blob/master/stylesheets/accoutrement/_pseudo-elements.scss
+ */
+/**
+ * Before
+ * 
+ * Add content before an element
+ *
+ * @include before($content)
+ * $content: The string to add before
+ */
+/**
+ * After
+ * 
+ * Add content after an element
+ * @include after($content)
+ * $content: The string to add after
+ */
+/**
+ * Wrap
+ * 
+ * Wrap content before and after an element
+ *
+ * @include wrap($content)
+ * $content: The strings to add before and after
+ */
+/**
+ * Alignment
+ * 
+ */
+/**
+ * Center-align a block level element
+ * 
+ */
+/**
+ * Vertical Align of content
+ * 
+ * http://css-tricks.com/vertically-center-multi-lined-text/
+ */
+/**
+ * Normalize
+ *
+ * normalize.css v2.1.1 | MIT License | git.io/normalize 
+ */
+/**
+ * HTML5 Display Definitions
+ */
+/**
+ * Page
+ *
+ */
+/**
+ * Links
+ */
+/**
+ * Typography
+ */
+/**
+ * Embeded Content
+ */
+/**
+ * Figures 
+ */
+/**
+ * Forms
+ */
+/**
+ * Tables
+ *
+ */
+/**
+ * non-Normalize additions
+ *
+ */
+/**
+ * Box Model
+ *
+ * Apply natural box-model to all elements (ie8+ only)
+ * http://paulirish.com/2012/box-sizing-border-box-ftw/ 
+ */
+/**
+ * Media
+ * 
+ * intrinsic ratio, and hifi
+ */
+/**
+ * hidpi
+ *
+ * media query syntax: http://css-tricks.com/snippets/css/retina-display-media-query/
+ *
+ * 1. recommended values for $resolution: 1, 1.3, 1.5, 2;
+ */
+/* 1 */
+/**
+ * Fluid Ratios
+ * 
+ * Force an element and its children to hold a fluid ratio
+ * http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/
+ * https://github.com/ericam/accoutrement/blob/master/stylesheets/accoutrement/_media.scss
+ *
+ * also see: jquery solution: http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+ *
+ * @include fluid-ratio([$ratio, $width, $children])
+ * $ratio:      16/9, 4/3, 3/2
+ * $width:      Fluid width
+ * $children:   Child elements to keep within the ratio
+ *
+ * 1. Default fluid ratio
+ * 2. Default fluid ratio width
+ * 3. Child elements to keep within the ratio
+ */
+/* 1 */
+/* 2 */
+/* 3 */
+/**
+ * Fluid Scaling 
+ * 
+ * https://github.com/Snugug/toolkit/blob/master/compass/stylesheets/toolkit/_intrinsic-ratio.scss
+ */
+/**
+ * Font-Face
+ * 
+ * base on:
+ * https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/css3/_font-face.scss
+ */
+/**
+ * Box Emboss
+ * 
+ * example:  .box{ @include box-emboss(0.8, 0.05); }
+ */
+/**
+ * Text Emboss (letterpress)
+ *
+ * makes the text more readable by providing a sharper separation between letters and background
+ * example: .letterpress { @include text-emboss(0.7); }
+ */
+/**
+ * CSS Hyphens
+ * 
+ * word wrapping for skinny boxes:
+ * http://trentwalton.com/2011/09/07/css-hyphenation
+ *
+ * $value: none | manual | auto
+ */
+/**
+ * Link Mixins
+ * 
+ */
+/**
+ * fade between default and hover colors
+ */
+/**
+ * List Numbers
+ * 
+ * replace OL > LI numbers so they can be styled
+ */
+/**
+ * IE
+ * 
+ */
+/**
+ * nth-child() support for IE7 and 8
+ *
+ * https://github.com/Snugug/toolkit/blob/master/compass/stylesheets/toolkit/_children-of-ie.scss
+ */
+/**
+ * Sass List Utilities
+ * 
+ * https://github.com/ericam/accoutrement/blob/master/stylesheets/accoutrement/_sass-lists.scss
+ */
+/**
+ * Return a list with items in reverse order
+ * 
+ * reverse($list)
+ * $list: The list to reverse.
+ */
+/**
+ * Return a list with all duplicates removed
+ * 
+ * remove-duplicates($list)
+ * $list: The list to clean up
+ */
+/**
+ * Return a list with specific items removed
+ * 
+ * filter($list, $target)
+ * $list: The list to filter
+ * $target: An item to be removed from the list
+ */
