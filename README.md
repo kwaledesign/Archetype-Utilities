@@ -14,27 +14,28 @@ repositories are included inline.
 Archetype-Utilities is automatically included when installing Archetype via
 [Compass Extension](https://github.com/kwaledesign/Archetype-Compass).
 
-When installing Archetype [via
-Git](https://github.com/kwaledesign/Archetype#installation) you'll need to
-install Archetype-Utilities individually and then include it within you
-project.
+Install the Archetype-Utilities gem (you may need to run as sudo depending on your Ruby environment).
 
 ```
-$ cd ~/path/to/your/projects/sass/directory/
-$ git clone https://github.com/kwaledesign/Archetype-Utilities.git
+$ gem install archetype-utilities
+```
 
+Edit your project's config.rb file adding:
+
+```
+$ require 'archetype'
 ```
 
 Then you can include all of Archetype-Utilities within your main Sass partial:
 
 ```
-$ @import 'archetype';
+$ @import 'archetype-utilities';
 ```
 
 Or, you can include a specific component:
 
 ```
-$ @import 'archetype/clearfix';
+$ @import 'archetype-utilities/clearfix';
 ```
 
 <hr>
